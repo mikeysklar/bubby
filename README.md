@@ -1,7 +1,6 @@
+Pocket Chording Keyboard
 
-Pocket Chording Left Hand Keyboard
-
-A compact pocket keyboard for taking notes that can also be used as a USB keyboard. This a simple sturdy design every day carry design. Some frill, mostly function.
+BUBBY is a compact pocket keyboard for taking notes that can also be used for USB input and storage. This a simple sturdy every day carry design. Some frills, mostly function.
 
 ![Screenshot](pics/hands-on.jpeg)
 
