@@ -28,10 +28,11 @@ Features:
 
 ![Screenshot](pics/hands-on.jpeg)
 
-![Screenshot](pics/freecad.jpeg)
 
 Enclosure
 ===
+
+![Screenshot](pics/freecad.jpeg)
 
 * Designed in FreeCAD 0.21.2
 * Printed on Bambu Lab P1P
