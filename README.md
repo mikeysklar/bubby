@@ -1,8 +1,8 @@
+![Screenshot](pics/front.jpeg)
+
 Pocket Chording Keyboard
 
 BUBBY is a compact pocket keyboard for taking notes that can also be used for USB input and storage. This a simple sturdy every day carry design. Some frills, mostly function.
-
-![Screenshot](pics/hands-on.jpeg)
 
 Features:
 ===
@@ -26,21 +26,20 @@ Features:
     * optional computer/tablet/phone/pi HID interface
     * 350mAh battery w/charger
 
-
 ![Screenshot](pics/freecad.jpeg)
 
-* Enclosure
-    * Designed in FreeCAD 0.21.2
-    * Printed on Bambu Lab P1P
+Enclosure
+===
+
+* Designed in FreeCAD 0.21.2
+* Printed on Bambu Lab P1P
+* Dimensions (mm):
+    * 80 x 46 x 12 
 
 ![Screenshot](pics/kicad-pcb.jpeg)
 
-* Dimensions:
-    * 80 x 46 x 12 
-
-* Tested with Circuitpython 9.x
-    * PCB files are KiCAD
-    * Enclosure is FreeCAD
+* PCB files are KiCAD 8.x
+* Tested with CircuitPython 9.x
 
 ![Screenshot](pics/open.jpeg)
 
@@ -57,20 +56,26 @@ Bill of Materials
 
 ![Screenshot](pics/bottom.jpeg)
 
+Bottom
+====
+
 * Slim power switch on bottom.
 * Keychain hole
 
 ![Screenshot](pics/chords.jpeg)
 
-* G indicates center thumb (green)
-    * B - blue (inner thumb)
-    * Y - yellow (outer thumb)
+Chords
+===
 
 * Chording ascii table. Digits, punctuation, symbols and mofiiers are also supported with the thumb modifiers. Firmware includes 4 custom modifiers.
     * save 124
     * timer 134
     * clear screen G-124
     * usb mode G-134
+
+* G indicates center thumb (green)
+    * B - blue (inner thumb)
+    * Y - yellow (outer thumb)
 
 ![Screenshot](pics/milled-pcb.jpeg)
 
@@ -80,4 +85,4 @@ Bill of Materials
 
 ![Screenshot](pics/sch.jpeg)
 
-![Screenshot](pics/front.jpeg)
+![Screenshot](pics/hands-on.jpeg)
