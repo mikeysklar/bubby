@@ -26,6 +26,8 @@ Features:
     * optional computer/tablet/phone/pi HID interface
     * 350mAh battery w/charger
 
+![Screenshot](pics/hands-on.jpeg)
+
 ![Screenshot](pics/freecad.jpeg)
 
 Enclosure
@@ -37,6 +39,7 @@ Enclosure
     * 80 x 46 x 12 
 
 ![Screenshot](pics/kicad-pcb.jpeg)
+
 PCB design
 ===
 
@@ -90,4 +93,3 @@ DIY PCB
 
 ![Screenshot](pics/sch.jpeg)
 
-![Screenshot](pics/hands-on.jpeg)
