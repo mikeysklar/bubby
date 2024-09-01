@@ -37,9 +37,10 @@ Enclosure
     * 80 x 46 x 12 
 
 ![Screenshot](pics/kicad-pcb.jpeg)
+PCB design
+===
 
 * PCB files are KiCAD 8.x
-* Tested with CircuitPython 9.x
 
 ![Screenshot](pics/open.jpeg)
 
@@ -66,6 +67,7 @@ Bottom
 
 Chords
 ===
+* Tested with CircuitPython 9.x
 
 * Chording ascii table. Digits, punctuation, symbols and mofiiers are also supported with the thumb modifiers. Firmware includes 4 custom modifiers.
     * save 124
@@ -78,6 +80,9 @@ Chords
     * Y - yellow (outer thumb)
 
 ![Screenshot](pics/milled-pcb.jpeg)
+
+DIY PCB
+===
 
 * Milled single sided on a Bantam Othermill.
     * traces PCB engraving bit 0.005 (mm)
