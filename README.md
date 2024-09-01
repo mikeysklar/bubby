@@ -66,6 +66,15 @@ Bottom
 * Slim power switch on bottom.
 * Keychain hole
 
+![Screenshot](pics/milled-pcb.jpeg)
+
+DIY PCB
+===
+
+* Milled single sided on a Bantam Othermill.
+    * traces PCB engraving bit 0.005 (mm)
+    * drill holes 0.9 (mm)
+
 ![Screenshot](pics/chords.jpeg)
 
 Chords
@@ -82,14 +91,7 @@ Chords
     * B - blue (inner thumb)
     * Y - yellow (outer thumb)
 
-![Screenshot](pics/milled-pcb.jpeg)
-
-DIY PCB
-===
-
-* Milled single sided on a Bantam Othermill.
-    * traces PCB engraving bit 0.005 (mm)
-    * drill holes 0.9 (mm)
-
 ![Screenshot](pics/sch.jpeg)
 
+Schematic
+===
