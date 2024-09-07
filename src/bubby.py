@@ -100,6 +100,8 @@ hid_keycode_to_char = {
     228: 'r_ctrl', 229: 'r_shift', 230: 'r_alt', 231: 'r_gui',
 }
 
+# key order in array
+# F4, F3, F2, F1, Blue, Green, Yellow
 CAN_CHORD = False
 CHORD_TABLE = {
     (False, False, False, True, False, False, False): Keycode.E,
@@ -165,10 +167,12 @@ CHORD_TABLE = {
     (True, True, False, True, False, False, False): Keycode.END,
     (True, True, False, True, False, True, False): Keycode.WINDOWS,
     (True, False, True, True, False, True, False): Keycode.DELETE,
-    (True, True, False, True, False, False, False): Keycode.F1,
-    (True, False, True, True, False, False, False): Keycode.F2,
-    (True, False, True, True, False, True, False): Keycode.F3,
+    (True, False, True, True, False, False, True): Keycode.F1,
+    (True, False, True, True, False, True, False): Keycode.F2,
+    (True, False, True, True, True, False, False): Keycode.F3,
     (True, True, False, True, False, True, False): Keycode.F4,
+    (True, False, True, True, False, False, False): Keycode.F5,
+    (True, True, False, True, False, False, False): Keycode.F6,
 }
 
 current_modifiers = 0
@@ -230,12 +234,17 @@ def send_chord():
     if map_char < 57:
         key_buf = get_char_from_hid_keycode(map_char)
 
+    # backspace :: 124  ::      F5
+    # space     :: 134  ::      F6
     #
-    # backspace :: G-23
+    # clear     :: B-124 ::     F3
+    # xxx       :: B-134
     #
-    # save      :: 124  clear   :: G-124
-    # timer     :: 134  USB       :: G-134
+    # save      :: G-124 ::     F2
+    # USB       :: G-134 ::     F4
     #
+    # timer     :: Y-124 ::     F1
+    # xxx       :: Y-134
     if map_char == 42:                # backspace
         if len(word_buf) > 0:
             word_buf = word_buf[:-1]    # Remove last character from string
@@ -252,7 +261,7 @@ def send_chord():
         word_buf = ''
         key_buf = ''
 
-    elif map_char == 60:                # clear no timer (stole F3 keycode)
+    elif map_char == 60:                # clear timer (stole F3 keycode)
         last_detected_time = None       # Capture the current time
         word_buf = ''
         key_buf = ''
@@ -265,6 +274,16 @@ def send_chord():
         word_buf = ''
         key_buf = ''
         time_buf = ''
+
+    elif map_char == 63:                # space (stole F5 keycode)
+        key_buf = ' '                   # OLED display
+        key_to_send = 44                # USB
+
+    elif map_char == 62:                # back space (stole F6 keycode)
+        key_to_send = 42                # USB
+        if len(word_buf) > 0:           # OLED
+            word_buf = word_buf[:-1]    # Remove last character from string
+            key_buf = ''                # Empty single char
 
     # Timer update
     if last_detected_time is not None and last_detected_time > 0:
