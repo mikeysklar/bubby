@@ -92,20 +92,30 @@ Chords
 * Tested with CircuitPython 9.x
 
 * Chording ascii table. Digits, punctuation, symbols and mofiiers are also supported with the thumb modifiers. Firmware includes 4 custom modifiers.
-    * save 124
-    * timer 134
-    * clear screen G-124
-    * usb mode G-134
 
+| Key       | Code    |
+| Backspace | 124     |
+| Space     | 134     |
+| Clear     | B-124   |
+| xxx       | B-134   |
+| Save      | G-124   |
+| USB       | G-134   |
+| Timer     | Y-124   |
+| xxx       | Y-134   |
+
+* B - blue (inner thumb)
 * G indicates center thumb (green)
-    * B - blue (inner thumb)
-    * Y - yellow (outer thumb)
+* Y - yellow (outer thumb)
 
-
+* white space tends to be blue (inner thumb)
+* almost all characters are either no thumb or green (center thumb)
+* numerics are yellow (outer thumb)
+  
 Schematic
 ===
 
 ![Screenshot](pics/sch.jpeg)
+<<<<<<< HEAD
 
 
 Why Bubby
@@ -118,3 +128,5 @@ Why Chording
 ===
 
 The Human <--> Machine interface can be improved in many areas.The most egregious issue is the keyboard. The qwerty layout is designed to be ineffecient. Chording based keyboards have lead to typing speeds of over 400 wpm. Douglas Engelbart a developer of early input devices attempted popularize chording in a 1968 demo. Now with VR, AR and always connected devices it makes sense to adapt the earlier chording designs into a discrete interface. 
+=======
+>>>>>>> 65024bedfe982452b26539e4eac40c9507588452
