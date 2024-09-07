@@ -128,4 +128,4 @@ Bubby is an affectionate nickname for a friend, peer or even grandmother (Yiddis
 Why Chording
 ===
 
-The Human <--> Machine interface can be improved in many areas.The most egregious issue is the keyboard. The qwerty layout is designed to be ineffecient. Chording based keyboards have lead to typing speeds of over 400 wpm. Douglas Engelbart a developer of early input devices attempted popularize chording in a 1968 demo. Now with VR, AR and always connected devices it makes sense to adapt the earlier chording designs into a discrete interface. 
+The Human <--> Machine interface has enormous potential for improvement. The most egregious issue is the keyboard. The qwerty layout is designed to be ineffecient. Chording based keyboards have shown typing speeds exceeding 400 wpm. Douglas Engelbart a developer of early input devices attempted popularize chording in a 1968 demo. Now with VR, AR and always connected devices it makes sense to adapt the earlier chording designs into a discrete interface. 
