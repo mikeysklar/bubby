@@ -139,4 +139,18 @@ Bubby is an affectionate nickname for a friend, peer or even grandmother (Yiddis
 Why Chording
 ===
 
-The Human <--> Machine interface has enormous potential for improvement. The most egregious issue is the keyboard. The qwerty layout is designed to be ineffecient. Chording based keyboards have shown typing speeds exceeding 400 wpm. Douglas Engelbart a developer of early input devices attempted popularize chording in a 1968 demo. Now with VR, AR and wearables it makes sense to adapt the earlier chording designs into new discrete interfaces.
+The Human <--> Machine interface has enormous potential for improvement. The most egregious issue is the keyboard. The QWERTY layout is designed to be ineffecient. Chording based keyboards have shown typing speeds exceeding 400 wpm. Douglas Engelbart a developer of early input devices attempted popularize chording in a 1968 demo. Now with VR, AR and wearables it makes sense to adapt the earlier chording designs into new discrete interfaces.
+
+
+Just Why?
+===
+
+![Screenshot](pics/morse-code.jpeg)
+
+I hurt my knee. I had been running ultramarathons for ten years and had to get surgery. Immediately the twenty plus hours a week I had been putting into running were freed up. I read [Bruce Schneier's book "A Hacker's Mind"](https://www.amazon.com/Hackers-Mind-Powerful-Societys-Rules/dp/B0BP97G3NL) which describes a student reciting Pi to one hundred decimal places by using a phone vibrating morse code patterns. I was inspried and built a [BLE keyboard](https://github.com/mikeysklar/ble-morsecode-neokey) which used morse code communication. I slimmed it down into a Feather Rev TFT ESP32-S3 variation with vibrating motor and small built-in buttons. A realization came to me that I like having a self powered pocket keyboard and screen with some USB abilities. Also it would sure be nice to type faster.
+
+
+![Screenshot](pics/doug.jpeg)
+
+
+I made five variations of "bubby". I call the series "doug" after the dude who popularized chording. The first one I wired up with just a protoboard and buttons. It actually turned out the most functional of the designs. I went back to that model to make a PCB. The other versions I tried going to had irritatingly small SMT buttons that were uncomfortable and would come off. Larger keys and PCBs like the stick and ring designs which use Kailh Choc keys were to bulky and rattled. Study and compact won out. 
