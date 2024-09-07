@@ -1,8 +1,8 @@
 ![Screenshot](pics/front.jpeg)
 
-A Pocket Chording Keyboard
+BUBBY - A Pocket Chording Keyboard
 
-BUBBY is a compact one handed keyboard that fits in your pocket. It uses seven keys with chording patterns for input. The display makes an excellent stand-alone training device. It can be used as a USB HID keyboard or storage key. This a sturdy every day carry design. Some frills, mostly function.
+It uses seven keys with chording patterns for input. The display makes for an excellent stand-alone training experience. It can be used as a USB HID keyboard or storage drive. This a sturdy every day carry design. Some frills, mostly function.
 
 Features:
 ===
@@ -11,7 +11,7 @@ Features:
     * thinner than a deck of cards in all dimensions
 * 240x135 color LCD
     * view typed characters 
-* notes
+* Note Taking
     * save to flash
     * view as USB drive
 * Timer
@@ -23,7 +23,8 @@ Features:
 * Adafruit Feather Compatible
     * also works with Feather RP2040 (minus display code)
 * USB-C 
-    * optional computer/tablet/phone/pi HID interface
+    * computer/tablet/phone/pi HID interface
+* Battery
     * 350mAh battery w/charger
 
 ![Screenshot](pics/hands-on.jpeg)
@@ -108,11 +109,21 @@ Chords
 * G indicates center thumb (green)
 * Y - yellow (outer thumb)
 
-* white space tends to be blue (inner thumb)
-* almost all characters are either no thumb or green (center thumb)
+* white space is blue (inner thumb)
+* alpha characters are green (center thumb)
 * numerics are yellow (outer thumb)
 
-  
+
+Typing Speed
+===
+
+![Screenshot](pics/sch.jpeg)
+
+* monkeytype
+* left handed :: 14 wpm
+* limited by mental conversion of letters to chords
+
+
 Schematic
 ===
 
@@ -122,10 +133,10 @@ Schematic
 Why Bubby
 ===
 
-Bubby is an affectionate nickname for a friend, peer or even grandmother (Yiddish). This pocket keyboard acting as a digital everyday carry device is the friend you take with you.
+Bubby is an affectionate nickname for a friend, peer or even grandmother (Yiddish). This pocket keyboard acting as a digital everyday carry device. It is the friend that accompanies you.
 
 
 Why Chording
 ===
 
-The Human <--> Machine interface has enormous potential for improvement. The most egregious issue is the keyboard. The qwerty layout is designed to be ineffecient. Chording based keyboards have shown typing speeds exceeding 400 wpm. Douglas Engelbart a developer of early input devices attempted popularize chording in a 1968 demo. Now with VR, AR and always connected devices it makes sense to adapt the earlier chording designs into a discrete interface. 
+The Human <--> Machine interface has enormous potential for improvement. The most egregious issue is the keyboard. The qwerty layout is designed to be ineffecient. Chording based keyboards have shown typing speeds exceeding 400 wpm. Douglas Engelbart a developer of early input devices attempted popularize chording in a 1968 demo. Now with VR, AR and wearables it makes sense to adapt the earlier chording designs into new discrete interfaces.
