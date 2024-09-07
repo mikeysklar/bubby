@@ -94,6 +94,7 @@ Chords
 * Chording ascii table. Digits, punctuation, symbols and mofiiers are also supported with the thumb modifiers. Firmware includes 4 custom modifiers.
 
 | Key       | Code    |
+|:---------:|:-------:|
 | Backspace | 124     |
 | Space     | 134     |
 | Clear     | B-124   |
