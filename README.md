@@ -84,16 +84,26 @@ Chords
 * Tested with CircuitPython 9.x
 
 * Chording ascii table. Digits, punctuation, symbols and mofiiers are also supported with the thumb modifiers. Firmware includes 4 custom modifiers.
-    * save 124
-    * timer 134
-    * clear screen G-124
-    * usb mode G-134
 
+| Key       | Code    |
+|:---------:|:-------:|
+| Backspace | 124     |
+| Space     | 134     |
+| Clear     | B-124   |
+| xxx       | B-134   |
+| Save      | G-124   |
+| USB       | G-134   |
+| Timer     | Y-124   |
+| xxx       | Y-134   |
+
+* B - blue (inner thumb)
 * G indicates center thumb (green)
-    * B - blue (inner thumb)
-    * Y - yellow (outer thumb)
+* Y - yellow (outer thumb)
 
-
+* white space tends to be blue (inner thumb)
+* almost all characters are either no thumb or green (center thumb)
+* numerics are yellow (outer thumb)
+  
 Schematic
 ===
 
