@@ -117,7 +117,7 @@ Chords
 Typing Speed
 ===
 
-![Screenshot](pics/sch.jpeg)
+![Screenshot](pics/monkeytype.jpeg)
 
 * monkeytype
 * left handed :: 14 wpm
