@@ -28,27 +28,28 @@ Features:
 
 ![Screenshot](pics/hands-on.jpeg)
 
-![Screenshot](pics/freecad.jpeg)
 
 Enclosure
 ===
+
+![Screenshot](pics/freecad.jpeg)
 
 * Designed in FreeCAD 0.21.2
 * Printed on Bambu Lab P1P
 * Dimensions (mm):
     * 80 x 46 x 12 
 
-![Screenshot](pics/kicad-pcb.jpeg)
-
 PCB design
 ===
 
-* PCB files are KiCAD 8.x
+![Screenshot](pics/kicad-pcb.jpeg)
 
-![Screenshot](pics/open.jpeg)
+* PCB files are KiCAD 8.x
 
 Bill of Materials
 ===
+
+![Screenshot](pics/open.jpeg)
 
 | Item       | Source     | Part Number        |
 |:----------:|:----------:|:------------------:|
@@ -58,27 +59,28 @@ Bill of Materials
 | Pwr Switch | AliExpress | MSKT-12G03 |
 | Screws     | Adafruit   | [M2.5 Machine Screws / Stand-off](https://www.adafruit.com/product/3299) |
 
-![Screenshot](pics/bottom.jpeg)
-
 Bottom
 ====
+
+![Screenshot](pics/bottom.jpeg)
 
 * Slim power switch on bottom.
 * Keychain hole
 
-![Screenshot](pics/milled-pcb.jpeg)
-
 DIY PCB
 ===
+
+![Screenshot](pics/milled-pcb.jpeg)
 
 * Milled single sided on a Bantam Othermill.
     * traces PCB engraving bit 0.005 (mm)
     * drill holes 0.9 (mm)
 
-![Screenshot](pics/chords.jpeg)
-
 Chords
 ===
+
+![Screenshot](pics/chords.jpeg)
+
 * Tested with CircuitPython 9.x
 
 * Chording ascii table. Digits, punctuation, symbols and mofiiers are also supported with the thumb modifiers. Firmware includes 4 custom modifiers.
@@ -91,7 +93,8 @@ Chords
     * B - blue (inner thumb)
     * Y - yellow (outer thumb)
 
-![Screenshot](pics/sch.jpeg)
 
 Schematic
 ===
+
+![Screenshot](pics/sch.jpeg)
