@@ -160,14 +160,15 @@ I made five variations of bubby. I call the series "doug" after Douglas Engelbar
 Lessons Learned
 ===
 
-* Memorizing Chords - Use muscle memory. Practice the patterns for single, double, triple and four digit combos. Then learn the lesser used keys with the thumb modifier. The more fingers that are pressing the less frequently the letter is typically used. Do not try to memorize with mnemonics, imagery or other memory tricks. I wasted a lot of time making elaborate charts and descriptions that were unnecessary. 
+* Memorizing Chords - Use muscle memory. Practice the patterns for single, double, triple and four digit combos. Then learn the lesser used keys with the thumb modifier. The more fingers that are pressing the less frequently the letter is typically used. Do not try to memorize with mnemonics, imagery or other memory tricks. I wasted a lot of time making elaborate charts and descriptions that were unnecessary. Getting faster with the chords has been the most rewarding part of the project. 
 
 * Comfort - All enclosure edges need to rounded. One straight edge becomes very uncomfortable to hold and in the pocket.
 
-* Gloves - An unexpected, but welcome finding was that I can typing with gloves using real buttons was quite natural. 
+* Gloves - An unexpected, but welcome finding was that typing with gloves using real buttons was quite natural. 
 
 * Power Switch - I ended up putting it right below the Feathers USB-C port on the bottom of the PCB. It is accesible and can be flicked on and off with one hand. It is not ideal in that the board needs to be spun around to flick the switch. I ran out of convenient locations so went with easy to place. 
 
-* Button Click Noise - I wanted silent buttons. The blue right angle ones I use produce a slight click noise. Experimenting with Red Kailh buttons were silent when pressed, but had too many other issues for a pocket form factor. 
+* Button Click Noise - I wanted silent buttons. The blue right angle ones produce a slight click noise. Experimenting with Red Kailh buttons were silent when pressed, but had too many other issues for a pocket form factor. 
 
-* BLE / WiFi - I'm using a board that works well with WiFi and is just now getting BLE HID support (not fully there with CircuitPython 9.2.x). My preference has been to not use any wireless. A stand alone device that does not require pairing has been a pleasure. I do plug it into USB-C to read my notes, charge the battery and practice on monkeytype. A Feather RP2040 works well  here with pin changes and display commented out. 
+* BLE / WiFi - I'm using a board that works well with WiFi and is just now getting BLE HID support (not fully there with CircuitPython 9.2.x). My preference has been to not use any wireless. A stand alone device that does not require pairing has been a pleasure. I do plug it into USB-C to read my notes, charge the battery and practice on monkeytype. An Adafruit Feather RP2040 works well here with pin changes and display commented out. 
+
