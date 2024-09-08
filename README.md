@@ -58,7 +58,7 @@ Bill of Materials
 
 | Item       | Source     | Part Number        |
 |:----------:|:----------:|:------------------:|
-| Controller | Adafruit   | [Feather ESP32-S3](https://www.adafruit.com/product/5483) |
+| Controller | Adafruit   | [Feather ESP32-S3 TFT](https://www.adafruit.com/product/5483) |
 | Bat 350mAh | Adafruit   | [LiPo 3.7v ADA# 2750](https://www.adafruit.com/product/2750) |
 | Buttons    | Digi-Key   | [450-1657-ND](450-1657-ND) |
 | Pwr Switch | AliExpress | MSKT-12G03 |
@@ -170,5 +170,5 @@ Lessons Learned
 
 * Button Click Noise - I wanted silent buttons. The blue right angle ones produce a slight click noise. Experimenting with Red Kailh buttons were silent when pressed, but had too many other issues for a pocket form factor. 
 
-* BLE / WiFi - I'm using a board that works well with WiFi and is just now getting BLE HID support (not fully there with CircuitPython 9.2.x). My preference has been to not use any wireless. A stand alone device that does not require pairing has been a pleasure. I do plug it into USB-C to read my notes, charge the battery and practice on monkeytype. An Adafruit Feather RP2040 works well here with pin changes and display commented out. 
+* BLE / WiFi - I'm using a board that works well with WiFi and is just now getting BLE HID support (not fully there with CircuitPython 9.2.x). My preference has been to not use any wireless. A stand alone device that does not require pairing has been a pleasure. I do plug it into USB-C to read my notes, charge the battery and practice on monkeytype. An Adafruit Feather RP2040 works well here with pin changes and display code commented out. I really like the display though.
 
