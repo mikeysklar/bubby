@@ -92,7 +92,7 @@ Chords
 
 * Tested with CircuitPython 9.x
 
-* Chording ascii table. Digits, punctuation, symbols and mofiiers are also supported with the thumb modifiers. Firmware includes 4 custom modifiers.
+* Chording ascii table. Digits, punctuation, symbols and mofiiers are also supported with the thumb modifiers. Firmware includes additional custom modifiers.
 
 | Key       | Code    |
 |:---------:|:-------:|
@@ -112,6 +112,8 @@ Chords
 * white space is blue (inner thumb)
 * alpha characters are green (center thumb)
 * numerics are yellow (outer thumb)
+
+* akmnos22 has a [great chord reference chart in CSV format](docs/manualmap_chords.csv) the core 64 chords. There 69 with ones I added above.
 
 
 Typing Speed
