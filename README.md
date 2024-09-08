@@ -121,7 +121,8 @@ Typing Speed
 
 * monkeytype
 * left handed :: 14 wpm
-* limited by mental conversion of letters to chords
+* primarily limited by my own mental conversion of letters to chords
+* a realistic goal is 25+ wpm per hand
 
 
 Schematic
@@ -153,4 +154,20 @@ I hurt my knee. I had been running ultramarathons for ten years and needed surge
 ![Screenshot](pics/doug.jpeg)
 
 
-I made five variations of bubby. I call the series "doug" after Douglas Engelbart who helped popularize chording nearly 60 years ago. The first one I wired up with a protoboard and buttons actually turned out the most functional. I went back to that design in the end. The other versions I tried going to had irritatingly small SMT buttons that were uncomfortable and would come off from pressing too hard. Larger keys and PCBs like the stick and ring designs which use Kailh low profile Choc keys were too bulky and woudl rattle. Sturdy and compact won out. 
+I made five variations of bubby. I call the series "doug" after Douglas Engelbart who popularized chording nearly 60 years ago. The first one I wired up with a protoboard actually turned out the most functional. I went back to that layout in the end. The other versions I tried going to had irritatingly small SMT buttons that were uncomfortable and would lift off the PCB from pressing too hard. Larger keys and PCBs like the stick and ring designs which use Kailh low profile Choc keys were too bulky and made a slight rattle. Sturdy and compact won out. 
+
+
+Lessons Learned
+===
+
+* Memorizing Chords - Use muscle memory. Practice the patterns for single, double, triple and four digit combos. Then learn the lesser used keys with the thumb modifier. The more fingers that are pressing the less frequently the letter is typically used. Do not try to memorize with mnemonics, imagery or other memory tricks. I wasted a lot of time making elaborate charts and descriptions that were unnecessary. 
+
+* Comfort - All enclosure edges need to rounded. One straight edge becomes very uncomfortable to hold and in the pocket.
+
+* Gloves - An unexpected, but welcome finding was that I can typing with gloves using real buttons was quite natural. 
+
+* Power Switch - I ended up putting it right below the Feathers USB-C port on the bottom of the PCB. It is accesible and can be flicked on and off with one hand. It is not ideal in that the board needs to be spun around to flick the switch. I ran out of convenient locations so went with easy to place. 
+
+* Button Click Noise - I wanted silent buttons. The blue right angle ones I use produce a slight click noise. Experimenting with Red Kailh buttons were silent when pressed, but had too many other issues for a pocket form factor. 
+
+* BLE / WiFi - I'm using a board that works well with WiFi and is just now getting BLE HID support (not fully there with CircuitPython 9.2.x). My preference has been to not use any wireless. A stand alone device that does not require pairing has been a pleasure. I do plug it into USB-C to read my notes, charge the battery and practice on monkeytype. A Feather RP2040 works well  here with pin changes and display commented out. 
