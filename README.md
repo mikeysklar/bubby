@@ -90,7 +90,14 @@ Chords
 
 ![Screenshot](pics/chords.jpeg)
 
-* Tested with CircuitPython 9.x
+* Tested with CircuitPython 9.1.3
+    * libraries:
+        * adafruit_hid
+        * adafruit_bitmap_font
+        * adafruit_display_text
+        * adafruit_ticks
+    * code:
+        cp bubby.py CIRCUITPY/code.py
 
 * akmnos22 has a [great chord reference chart in CSV format](docs/manualmap_chords.csv) the core 64 chords. 
 
