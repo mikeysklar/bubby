@@ -85,6 +85,71 @@ DIY PCB
     * drill holes 0.9 (mm)
 
 
+Typing Speed
+===
+
+![Screenshot](pics/monkeytype.jpeg)
+
+* monkeytype
+* left handed :: 15 wpm
+* primarily limited by my own mental conversion of letters to chords
+* a realistic goal is 25+ wpm per hand
+
+
+Schematic
+===
+
+![Screenshot](pics/sch.jpeg)
+
+
+Why Bubby
+===
+
+Bubby is an affectionate nickname for a friend, peer or even grandmother (Yiddish). This pocket keyboard acting as a digital everyday carry device. It is the friend that accompanies you.
+
+
+Why Chording
+===
+
+The Human <--> Machine interface has enormous potential for improvement. The most egregious issue is the keyboard. The QWERTY layout is designed to be ineffecient. Now with VR, AR and wearables it makes sense to remix the earlier chording designs into new discrete interfaces.
+
+
+Just Why?
+===
+
+![Screenshot](pics/morse-code.jpeg)
+
+I hurt my knee. I had been running ultramarathons for ten years and needed surgery to clean things up. Immediately the twenty hours a week I had been putting into running were freed up. I read [Bruce Schneier's book "A Hacker's Mind"](https://www.amazon.com/Hackers-Mind-Powerful-Societys-Rules/dp/B0BP97G3NL) which describes a student reciting Pi to one hundred decimal places by using a phone vibrating morse code patterns. I was inspried and built a [BLE keyboard](https://github.com/mikeysklar/ble-morsecode-neokey) which used morse code communication. I slimmed it down into a Feather Rev TFT ESP32-S3 variation with vibrating motor and small built-in buttons. I realized that I like having a powered pocket keyboard / screen with some USB abilities. Also it would sure be nice to type faster.
+
+
+![Screenshot](pics/doug.jpeg)
+
+
+I made five variations of bubby. I call the series "doug" after Douglas Engelbart who popularized chording nearly 60 years ago. The first one I wired up with a protoboard actually turned out the most functional. I went back to that layout in the end. The other versions I tried going to had irritatingly small SMT buttons that were uncomfortable and would lift off the PCB from pressing too hard. Larger keys and PCBs like the stick and ring designs which use Kailh low profile Choc keys were too bulky and made a slight rattle. Sturdy and compact won out. 
+
+
+Lessons Learned
+===
+
+* Memorizing Chords - Use muscle memory. Practice the patterns for single, double, triple and four digit combos. Then learn the lesser used keys with the thumb modifier. The more fingers that are pressing the less frequently the letter is typically used. Do not try to memorize with mnemonics, imagery or other memory tricks. I wasted a lot of time making elaborate charts and descriptions that were unnecessary. Getting faster with the chords has been the most rewarding part of the project. 
+
+* Comfort - All enclosure edges need to be rounded. One straight edge becomes uncomfortable to hold and to carry in a pocket.
+
+* Gloves - An unexpected, but welcome finding was that typing with gloves using real buttons was quite natural. 
+
+* Power Switch - I ended up putting it right below the Feathers USB-C port on the bottom of the PCB. It is accesible and can be flicked on and off with one hand. It is not ideal in that the board needs to be spun around to flick the switch. I ran out of convenient locations so went with easy to place. 
+
+* Button Click Noise - I wanted silent buttons. The blue right angle ones produce a slight click noise. Experimenting with Red Kailh buttons were silent when pressed, but had too many other issues for a pocket form factor. 
+
+* BLE / WiFi - I'm using a board that works well with WiFi and is just now getting BLE HID support (not fully there with CircuitPython 9.2.x). My preference has been to not use any wireless. A stand alone device that does not require pairing has been a pleasure. I do plug it into USB-C to read my notes, charge the battery and practice on monkeytype. An Adafruit Feather RP2040 works well here with pin changes and display code commented out. I really like the display though.
+
+* On the Go - Running or walking it is easy to take notes with this form factor. I do most of my practice going through the alphabet and chord patterns while walking the dog. 
+
+* Fidget Toy - Another realization after a month of every day carry is that I have been using bubby as a fidget toy. It provides a calming flow state practicing the chords and letters.
+
+
+Chords
+===
 Chords
 ===
 
@@ -185,67 +250,4 @@ Chords
 | Home           | .     |      | .     | .     |                                         | Is a modifier key       |
 | End            | .     | .    |      | .     |                                         |                        |
 | Windows        | .     | .    |      | .     | g                                       |                        |
-| Delete         | .     |      | .     | .     | g                                       |                        |
-
-
-Typing Speed
-===
-
-![Screenshot](pics/monkeytype.jpeg)
-
-* monkeytype
-* left handed :: 15 wpm
-* primarily limited by my own mental conversion of letters to chords
-* a realistic goal is 25+ wpm per hand
-
-
-Schematic
-===
-
-![Screenshot](pics/sch.jpeg)
-
-
-Why Bubby
-===
-
-Bubby is an affectionate nickname for a friend, peer or even grandmother (Yiddish). This pocket keyboard acting as a digital everyday carry device. It is the friend that accompanies you.
-
-
-Why Chording
-===
-
-The Human <--> Machine interface has enormous potential for improvement. The most egregious issue is the keyboard. The QWERTY layout is designed to be ineffecient. Now with VR, AR and wearables it makes sense to remix the earlier chording designs into new discrete interfaces.
-
-
-Just Why?
-===
-
-![Screenshot](pics/morse-code.jpeg)
-
-I hurt my knee. I had been running ultramarathons for ten years and needed surgery to clean things up. Immediately the twenty hours a week I had been putting into running were freed up. I read [Bruce Schneier's book "A Hacker's Mind"](https://www.amazon.com/Hackers-Mind-Powerful-Societys-Rules/dp/B0BP97G3NL) which describes a student reciting Pi to one hundred decimal places by using a phone vibrating morse code patterns. I was inspried and built a [BLE keyboard](https://github.com/mikeysklar/ble-morsecode-neokey) which used morse code communication. I slimmed it down into a Feather Rev TFT ESP32-S3 variation with vibrating motor and small built-in buttons. I realized that I like having a powered pocket keyboard / screen with some USB abilities. Also it would sure be nice to type faster.
-
-
-![Screenshot](pics/doug.jpeg)
-
-
-I made five variations of bubby. I call the series "doug" after Douglas Engelbart who popularized chording nearly 60 years ago. The first one I wired up with a protoboard actually turned out the most functional. I went back to that layout in the end. The other versions I tried going to had irritatingly small SMT buttons that were uncomfortable and would lift off the PCB from pressing too hard. Larger keys and PCBs like the stick and ring designs which use Kailh low profile Choc keys were too bulky and made a slight rattle. Sturdy and compact won out. 
-
-
-Lessons Learned
-===
-
-* Memorizing Chords - Use muscle memory. Practice the patterns for single, double, triple and four digit combos. Then learn the lesser used keys with the thumb modifier. The more fingers that are pressing the less frequently the letter is typically used. Do not try to memorize with mnemonics, imagery or other memory tricks. I wasted a lot of time making elaborate charts and descriptions that were unnecessary. Getting faster with the chords has been the most rewarding part of the project. 
-
-* Comfort - All enclosure edges need to be rounded. One straight edge becomes uncomfortable to hold and to carry in a pocket.
-
-* Gloves - An unexpected, but welcome finding was that typing with gloves using real buttons was quite natural. 
-
-* Power Switch - I ended up putting it right below the Feathers USB-C port on the bottom of the PCB. It is accesible and can be flicked on and off with one hand. It is not ideal in that the board needs to be spun around to flick the switch. I ran out of convenient locations so went with easy to place. 
-
-* Button Click Noise - I wanted silent buttons. The blue right angle ones produce a slight click noise. Experimenting with Red Kailh buttons were silent when pressed, but had too many other issues for a pocket form factor. 
-
-* BLE / WiFi - I'm using a board that works well with WiFi and is just now getting BLE HID support (not fully there with CircuitPython 9.2.x). My preference has been to not use any wireless. A stand alone device that does not require pairing has been a pleasure. I do plug it into USB-C to read my notes, charge the battery and practice on monkeytype. An Adafruit Feather RP2040 works well here with pin changes and display code commented out. I really like the display though.
-
-* On the Go - Running or walking it is easy to take notes with this form factor. I do most of my practice going through the alphabet and chord patterns while walking the dog. 
-
-* Fidget Toy - Another realization after a month of every day carry is that I have been using bubby as a fidget toy. It provides a calming flow state practicing the chords and letters.
+| Delete         | .     |      | .     | .     | g                                       |        
