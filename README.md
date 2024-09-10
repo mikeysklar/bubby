@@ -177,13 +177,13 @@ Chords
 
 | Symbol   | Button Color       | Description                         |
 |----------|--------------------|-------------------------------------|
-| **B**    | Blue (inner thumb)  | White space / punctuation           |
+| **B**    | Blue (inner/left thumb)  | White space / punctuation           |
 | **G**    | Green (center thumb)| Alpha characters                   |
-| **Y**    | Yellow (outer thumb)| Numerics                           |
+| **Y**    | Yellow (outer/right thumb)| Numerics                           |
 
 * akmnos22 has a [great chord reference chart in CSV format](docs/manualmap_chords.csv) this is the github table form of it.
 
-| Key            | Pinky | Ring | Middle | Index | Thumb (blue, green, yellow, left-to-right) |
+| Key            | Pinky | Ring | Middle | Index | Thumb |
 |----------------|-------|------|--------|-------|---------------------------------------------|
 | a              | x     |      | |     |                                         |
 | b              | x     |      | |     |                                         |
