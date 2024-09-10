@@ -7,7 +7,7 @@ It uses seven keys with chording patterns for input. The display makes for an ex
 Features:
 ===
 
-* Slim Form Factor (mm)
+* Slim Form Factor 
     * thinner than a deck of cards in all dimensions
 * 240x135 color LCD
     * view typed characters 
@@ -39,7 +39,7 @@ Enclosure
 * Printed on Bambu Lab P1P
 * Dimensions (mm):
     * 80 x 46 x 12 
-* Weight:
+* Total Weight:
     * 40.6 grams
 
 
