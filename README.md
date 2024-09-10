@@ -224,11 +224,11 @@ Chords
 | THREE          |       | .    |      | | y                                       |
 | FOUR           | .     |      |      | | y                                       |
 | FIVE           |       |      | .     | .     | y                                       |
-| SIX            |       | .    |      | | y                                       |
+| SIX            |       | .    | .     | | y                                       |
 | SEVEN          | .     | .    |      | | y                                       |
 | EIGHT          |       | .    |      | .     | y                                       |
 | NINE           | .     |      | .     | | y                                       |
-| ZERO           |       | .    |      | .     | y                                       |
+| ZERO           |       | .    | .     | .     | y                                       |
 | period         |       | .    |      | | b                                       |
 | comma          |       | .    |      | .     | b                                       |
 | forward_slash  | .     | .    |      | | b                                       |
