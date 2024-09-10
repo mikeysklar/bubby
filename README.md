@@ -184,33 +184,33 @@ Chords
 * akmnos22 has a [great chord reference chart in CSV format](docs/manualmap_chords.csv) this is the github table form of it.
 
 | Key            | Pinky | Ring | Middle | Index | Thumb |
-|----------------|-------|------|--------|-------|---------------------------------------------|
+|----------------|-------|------|--------|-------|---------|
 | a              | x     |      | |     |                                         |
-| b              | x     |      | |     |                                         |
-| c              | x     |      | x     | |                                         |
+| b              | x     |      | |     | x                                        |
+| c              | x     |      |      | x|                                         |
 | d              |       | x    | x     | x     |                                         |
-| e              |       |      | .     | |                                         |
+| e              |       |      | x     | |                                         |
 | f              |       | x    | x     | | g                                       |
-| g              |       |      | x     | x     | g                                       |
+| g              |       |      | x     |      | g                                       |
 | h              |       | x    |      | | g                                       |
 | i              |       |      | x     | |                                         |
 | j              |       | x    | x     | x     | g                                       |
-| k              | x     | x    |      | x     | g                                       |
-| l              | x     | x    |      | |                                         |
+| k              | x     |     | x     |      | g                                       |
+| l              | x     |     | x     | |                                         |
 | m              |       |      |      | x     | g                                       |
-| n              |       | .    | .     | |                                         |
-| o              |       | .    |      | .     |                                         |
-| p              | .     | .    |      | .     |                                         |
-| q              | .     | .    |      | .     | .                                       |
-| r              |       |      | .     | .     |                                         |
-| s              | .     |      |      | |                                         |
-| t              | .     | .    |      | |                                         |
-| u              | .     | .    |      | .     | .                                       |
-| v              | .     | .    |      | | g                                       |
-| w              |       | .    |      | .     | g                                       |
-| x              | .     |      |      | .     | g                                       |
-| y              |       |      | .     | .     | g                                       |
-| z              | .     | .    |      | .     | g                                       |
+| n              |       | x    | x     | |                                         |
+| o              |       | x    |      | x     |                                         |
+| p              | x     | x    | x     |      |                                         |
+| q              | x     | x    | x     | x     | g                                       |
+| r              |       |      | x     | x     |                                         |
+| s              | x     |      |      | |                                         |
+| t              | x     | x    |      | |                                         |
+| u              | x     | x    | x     | x     |                                        |
+| v              | x     | x    |      | | g                                       |
+| w              |       | x    |      | x     | g                                       |
+| x              | x     |      |      | x     | g                                       |
+| y              |       |      | x     | x     | g                                       |
+| z              | x     | x    | x    |      | g                                       |
 | Space          |       |      |      | .     | b                                       |
 | Tab            |       |      | .     | | b                                       |
 | Shift          |       |      |      | | g                                       |
