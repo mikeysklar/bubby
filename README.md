@@ -124,8 +124,12 @@ I hurt my knee. I had been running ultramarathons for ten years and needed surge
 I made five variations of bubby. I call the series "doug" after Douglas Engelbart who popularized chording nearly 60 years ago. The first one I wired up with a protoboard actually turned out the most functional. I went back to that layout in the end. The other versions I tried going to had irritatingly small SMT buttons that were uncomfortable and would lift off the PCB from pressing too hard. Larger keys and PCBs like the stick and ring designs which use Kailh low profile Choc keys were too bulky and made a slight rattle. Sturdy and compact won out. 
 
 
+
 Lessons Learned
 ===
+
+
+![Screenshot](pics/pcb3D.jpeg)
 
 * Memorizing Chords - Use muscle memory. Practice the patterns for single, double, triple and four digit combos. Then learn the lesser used keys with the thumb modifier. The more fingers that are pressing the less frequently the letter is typically used. Do not try to memorize with mnemonics, imagery or other memory tricks. I wasted a lot of time making elaborate charts and descriptions that were unnecessary. Getting faster with the chords has been the most rewarding part of the project. 
 
