@@ -171,7 +171,7 @@ Lessons Learned
 
 * Memorizing Chords - Use muscle memory. Practice the patterns for single, double, triple and four digit combos. Then learn the lesser used keys with the thumb modifier. The more fingers that are pressing the less frequently the letter is typically used. Do not try to memorize with mnemonics, imagery or other memory tricks. I wasted a lot of time making elaborate charts and descriptions that were unnecessary. Getting faster with the chords has been the most rewarding part of the project. 
 
-* Comfort - All enclosure edges need to rounded. One straight edge becomes very uncomfortable to hold and in the pocket.
+* Comfort - All enclosure edges need to be rounded. One straight edge becomes uncomfortable to hold and to carry in a pocket.
 
 * Gloves - An unexpected, but welcome finding was that typing with gloves using real buttons was quite natural. 
 
@@ -181,3 +181,4 @@ Lessons Learned
 
 * BLE / WiFi - I'm using a board that works well with WiFi and is just now getting BLE HID support (not fully there with CircuitPython 9.2.x). My preference has been to not use any wireless. A stand alone device that does not require pairing has been a pleasure. I do plug it into USB-C to read my notes, charge the battery and practice on monkeytype. An Adafruit Feather RP2040 works well here with pin changes and display code commented out. I really like the display though.
 
+* On the Go - Running or walking it is easy to take notes with this form factor. I do most of my practice going through the alphabet and chord patterns while walking the dog. 
