@@ -91,17 +91,11 @@ Typing Speed
 ![Screenshot](pics/monkeytype.jpeg)
 
 * monkeytype
-* left handed :: 15 wpm @ 100%
-* personal best is 16 wpm
+* left handed :: 15 wpm @ 100% acc
+* personal best is 16 wpm (improving daily)
 * typical is 12-14 wpm
 * primarily limited by my own mental conversion of letters to chords
-* a realistic goal is 25+ wpm per hand
-
-
-Schematic
-===
-
-![Screenshot](pics/sch.jpeg)
+* a realistic goal is 25+ wpm, per hand
 
 
 Why Bubby
@@ -250,3 +244,9 @@ Chords
 | End            | .     | .    |      | .     |                                         |
 | Windows        | .     | .    |      | .     | g                                       |
 | Delete         | .     |      | .     | .     | g                                       |
+
+
+Schematic
+===
+
+![Screenshot](pics/sch.jpeg)
