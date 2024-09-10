@@ -99,8 +99,6 @@ Chords
     * code:
         cp bubby.py CIRCUITPY/code.py
 
-* akmnos22 has a [great chord reference chart in CSV format](docs/manualmap_chords.csv) the core 64 chords. 
-
 * Chording ascii table, digits, punctuation, symbols and modifiers are all built-in. Firmware includes five additional custom modifiers shown in the table below.
 
 | Key       | Code    |
@@ -119,6 +117,74 @@ Chords
 | **B**    | Blue (inner thumb)  | White space / punctuation           |
 | **G**    | Green (center thumb)| Alpha characters                   |
 | **Y**    | Yellow (outer thumb)| Numerics                           |
+
+* akmnos22 has a [great chord reference chart in CSV format](docs/manualmap_chords.csv) this is the github table form of it.
+| Key            | Pinky | Ring | Middle | Index | Thumb (blue, green, yellow, left-to-right) | Notes                  |
+|----------------|-------|------|--------|-------|---------------------------------------------|------------------------|
+| a              | x     |      | |     |                                         |                        |
+| b              | x     |      | |     |                                         |                        |
+| c              | x     |      | x     | |                                         |                        |
+| d              |       | x    | x     | x     |                                         |                        |
+| e              |       |      | .     | |                                         |                        |
+| f              |       | x    | x     | | g                                       |                        |
+| g              |       |      | x     | x     | g                                       |                        |
+| h              |       | x    |      | | g                                       |                        |
+| i              |       |      | x     | |                                         |                        |
+| j              |       | x    | x     | x     | g                                       |                        |
+| k              | x     | x    |      | x     | g                                       |                        |
+| l              | x     | x    |      | |                                         |                        |
+| m              |       |      |      | x     | g                                       |                        |
+| n              |       | .    | .     | |                                         |                        |
+| o              |       | .    |      | .     |                                         |                        |
+| p              | .     | .    |      | .     |                                         |                        |
+| q              | .     | .    |      | .     | .                                       | g                      |
+| r              |       |      | .     | .     |                                         |                        |
+| s              | .     |      |      | |                                         |                        |
+| t              | .     | .    |      | |                                         |                        |
+| u              | .     | .    |      | .     | .                                       |                        |
+| v              | .     | .    |      | | g                                       |                        |
+| w              |       | .    |      | .     | g                                       |                        |
+| x              | .     |      |      | .     | g                                       |                        |
+| y              |       |      | .     | .     | g                                       |                        |
+| z              | .     | .    |      | .     | g                                       |                        |
+| Space          |       |      |      | .     | b                                       |                        |
+| Tab            |       |      | .     | | b                                       |                        |
+| Shift          |       |      |      | | g                                       | Is a modifier key       |
+| Alt            |       |      |      | | b                                       | Is a modifier key       |
+| Control        |       |      |      | | y                                       | Is a modifier key       |
+| Enter          |       |      | .     | .     | b                                       |                        |
+| ONE            |       |      |      | .     | y                                       |                        |
+| TWO            |       |      | .     | | y                                       |                        |
+| THREE          |       | .    |      | | y                                       |                        |
+| FOUR           | .     |      |      | | y                                       |                        |
+| FIVE           |       |      | .     | .     | y                                       |                        |
+| SIX            |       | .    |      | | y                                       |                        |
+| SEVEN          | .     | .    |      | | y                                       |                        |
+| EIGHT          |       | .    |      | .     | y                                       |                        |
+| NINE           | .     |      | .     | | y                                       |                        |
+| ZERO           |       | .    |      | .     | y                                       |                        |
+| period         |       | .    |      | | b                                       |                        |
+| comma          |       | .    |      | .     | b                                       |                        |
+| forward_slash  | .     | .    |      | | b                                       |                        |
+| grave_accent   | .     | .    |      | .     | b                                       |                        |
+| minus          | .     |      |      | | b                                       |                        |
+| equals         |       | .    |      | .     | b                                       |                        |
+| left_bracket   | .     |      | .     | | b                                       |                        |
+| right_bracket  | .     |      |      | .     | b                                       |                        |
+| backslash      | .     | .    |      | | b                                       |                        |
+| semicolon      | .     | .    |      | .     | b                                       |                        |
+| quote          | .     |      | .     | .     | b                                       |                        |
+| backspace      |       | .    | .     | | b                                       |                        |
+| right_arrow    | .     |      | .     | .     | y                                       |                        |
+| left_arrow     | .     | .    |      | .     | y                                       |                        |
+| up_arrow       |       |      |      | .     | y                                       |                        |
+| down_arrow     | .     |      |      | .     | y                                       |                        |
+| escape         | .     | .    |      | | y                                       |                        |
+| Home           | .     |      | .     | .     |                                         | Is a modifier key       |
+| End            | .     | .    |      | .     |                                         |                        |
+| Windows        | .     | .    |      | .     | g                                       |                        |
+| Delete         | .     |      | .     | .     | g                                       |                        |
+
 
 Typing Speed
 ===
