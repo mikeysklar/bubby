@@ -129,7 +129,7 @@ Typing Speed
 ![Screenshot](pics/monkeytype.jpeg)
 
 * monkeytype
-* left handed :: 14 wpm
+* left handed :: 15 wpm
 * primarily limited by my own mental conversion of letters to chords
 * a realistic goal is 25+ wpm per hand
 
