@@ -119,6 +119,8 @@ Chords
 | **Y**    | Yellow (outer thumb)| Numerics                           |
 
 * akmnos22 has a [great chord reference chart in CSV format](docs/manualmap_chords.csv) this is the github table form of it.
+
+
 | Key            | Pinky | Ring | Middle | Index | Thumb (blue, green, yellow, left-to-right) | Notes                  |
 |----------------|-------|------|--------|-------|---------------------------------------------|------------------------|
 | a              | x     |      | |     |                                         |                        |
