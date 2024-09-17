@@ -91,10 +91,10 @@ Typing Speed
 ![Screenshot](pics/monkeytype.jpeg)
 
 * monkeytype
-* personal best :: 18 wpm 
+* personal best :: 20 wpm 
     * @ 100% acc  
     * (left hand only)
-* typical is 14 - 16 wpm
+* typical is 16 - 18 wpm
 * limited by my own mental conversion of letters --> chords
 * a realistic goal is 25+ wpm, per hand
 
