@@ -170,7 +170,7 @@ CHORD_TABLE = {
     (True, False, True, True, False, False, True): Keycode.F1,
     (True, False, True, True, False, True, False): Keycode.F2,
     (True, False, True, True, True, False, False): Keycode.F3,
-    (True, True, False, True, False, True, False): Keycode.F4,
+    (True, True, False, True, True, False, False): Keycode.F4,
     (True, False, True, True, False, False, False): Keycode.F5,
     (True, True, False, True, False, False, False): Keycode.F6,
 }
@@ -239,13 +239,13 @@ def send_chord():
     # space     :: 134  ::      F6
     #
     # clear     :: B-124 ::     F3
-    # xxx       :: B-134
+    # USB       :: B-134 ::     F4
     #
     # save      :: G-124 ::     F2
-    # USB       :: G-134 ::     F4
+    # xxx       :: G-134
     #
     # timer     :: Y-124 ::     F1
-    # xxx       :: Y-134
+    # xxx       :: Y-134 
     if map_char == 42:                # backspace
         if len(word_buf) > 0:
             word_buf = word_buf[:-1]    # Remove last character from string
