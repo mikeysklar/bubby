@@ -170,9 +170,9 @@ Chords
 | Backspace | 124     |
 | Space     | 134     |
 | Clear     | B-124   |
-| xxx       | B-134   |
+| USB       | B-134   |
 | Save      | G-124   |
-| USB       | G-134   |
+| xxx       | G-134   |
 | Timer     | Y-124   |
 | xxx       | Y-134   |
 
