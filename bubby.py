@@ -35,7 +35,7 @@ word_label.text = word_buf
 word_label.scale = 6
 word_label.anchor_point = (1, 0)
 word_label.anchored_position = (display.width, 0)
-                                                                               # create the label
+
 # last key entered
 mcode_label = label.Label(font=terminalio.FONT)
 mcode_label.text = key_buf
@@ -180,6 +180,7 @@ sticky_modifiers = 0
 last_modifier = 0
 start_time = time.monotonic_ns() # Reference point
 last_modifier_time = time.monotonic_ns()
+line_index = 0
 
 def get_char_from_hid_keycode(keycode):
     return hid_keycode_to_char.get(keycode, "Unknown keycode")
@@ -193,6 +194,48 @@ def prime_chord():
 
     CAN_CHORD = True
 
+
+# Load the text from 'notes.txt'
+def load_notes():
+    try:
+        with open("/notes.txt", "r") as file:
+            return file.readlines()
+    except OSError:
+        return ["No notes available."]
+
+notes = load_notes()
+
+# Function to update the displayed text
+def update_display():
+    global line_index
+    global word_buf
+    global time_buf
+
+    max_chars_per_line = 12
+
+    if line_index >= len(notes):
+        line_index = 0  # Wrap around
+    elif line_index < 0:
+        line_index = len(notes) - 1  # Wrap around
+
+    full_text = f"{line_index + 1}: {notes[line_index].strip()}"  # Display line number and content
+
+    # Split text into chunks to fit within the display width
+    wrapped_text = []
+
+    while len(full_text) > 0:
+        # Split at the max chars per line
+        wrapped_text.append(full_text[:max_chars_per_line])
+        full_text = full_text[max_chars_per_line:]
+
+    # Display each wrapped line (max 3 lines vertically on the screen)
+    word_label.scale = 3
+    word_buf = "\n".join(wrapped_text[:3])  # Only show the first 3 lines to fit the screen height
+
+    # Update the label with the new word buffer
+    word_label.text = word_buf
+
+
 def send_chord():
     global CAN_CHORD
     global last_modifier
@@ -205,6 +248,7 @@ def send_chord():
     global time_buf
     global kb
     global usbmode
+    global line_index
 
     if not CAN_CHORD:
         # We need this, otherwise keyups for one chord would trigger multiple chords
@@ -285,6 +329,15 @@ def send_chord():
         if len(word_buf) > 0:           # OLED
             word_buf = word_buf[:-1]    # Remove last character from string
             key_buf = ''                # Empty single char
+
+    elif map_char == 81:                # scroll down arrow
+        line_index += 1  
+        update_display()
+
+    elif map_char == 82:                # scroll up arrow
+        line_index -= 1  
+        update_display()
+    
 
     # Timer update
     if last_detected_time is not None and last_detected_time > 0:
