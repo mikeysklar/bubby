@@ -231,7 +231,7 @@ Chords
 | period         |       | .    |      | | b                                       |
 | comma          |       | .    |      | .     | b                                       |
 | forward_slash  | .     | .    |      | | b                                       |
-| grave_accent   | .     | .    |      | .     | b                                       |
+| grave_accent   | .     | .    | .    | .     | b                                       |
 | minus          | .     |      |      | | b                                       |
 | equals         |       | .    |      | .     | b                                       |
 | left_bracket   | .     |      | .     | | b                                       |
