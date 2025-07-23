@@ -12,6 +12,8 @@ from adafruit_hid.keycode import Keycode
 from adafruit_display_text import label
 
 # kb = Keyboard(usb_hid.devices)
+usbmode = False
+CAN_CHORD = True
 
 filename = "/notes.txt"
 word_buf = ''
@@ -182,7 +184,6 @@ CHORD_TABLE = {
     (True, True, True, False, True, False, False): Keycode.BACKSLASH,
     (True, True, False, True, True, False, False): Keycode.SEMICOLON,
     (True, False, True, True, True, False, False): Keycode.QUOTE,
-    (False, True, True, False, True, False, False): Keycode.BACKSPACE,
     (True, False, True, True, False, False, True): Keycode.RIGHT_ARROW,
     (True, True, False, True, False, False, True): Keycode.LEFT_ARROW,
     (True, False, False, True, False, False, True): Keycode.UP_ARROW,
@@ -196,7 +197,7 @@ CHORD_TABLE = {
     (True, False, True, True, False, True, False): Keycode.F2,
     (True, False, True, True, True, False, False): Keycode.F3,
     (True, True, False, True, False, True, False): Keycode.F4,
-    (True, False, True, True, False, False, False): Keycode.F5,
+    (True, False, True, True, False, False, False): Keycode.BACKSPACE,
     (True, True, False, True, False, False, False): Keycode.F6,
 }
 
@@ -247,24 +248,29 @@ def send_chord():
     if map_char < 57:
         key_buf = get_char_from_hid_keycode(map_char)
 
-    if map_char == 42:  # backspace
+    # ---- Key actions ----
+    if map_char == Keycode.BACKSPACE:  # 42
         if len(word_buf) > 0:
             word_buf = word_buf[:-1]
-            key_buf = ''
+        key_buf = ''
+
     elif map_char == 58:  # start timer
         last_detected_time = time.monotonic()
         key_buf = ''
+
     elif map_char == 59:  # save file
         storage.remount("/", False)
         with open(filename, "a") as file:
             file.write(f"{word_buf},{time_buf}\n")
         word_buf = ''
         key_buf = ''
+
     elif map_char == 60:  # clear
         last_detected_time = None
         word_buf = ''
         key_buf = ''
         time_buf = ''
+
     elif map_char == 61:  # USB mode
         kb = Keyboard(usb_hid.devices)
         last_detected_time = None
@@ -273,12 +279,16 @@ def send_chord():
         key_buf = ''
         time_buf = ''
 
+    else:
+        # printable / everything else
+        key_buf = get_char_from_hid_keycode(map_char)
+        word_buf += key_buf
+
     if last_detected_time is not None and last_detected_time > 0:
         elapsed_time = int(time.monotonic() - last_detected_time)
         time_buf = f"{elapsed_time}"
         time_label.text = time_buf
 
-    word_buf += key_buf
     word_label.scale = 4
     word_label.text = str(word_buf)
     mcode_label.text = str(key_buf)
