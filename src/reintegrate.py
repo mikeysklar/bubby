@@ -218,6 +218,7 @@ def send_chord():
     global word_buf, key_buf, map_char
     global last_detected_time, time_buf
     global usbmode
+    global line_index
 
     if not CAN_CHORD:
         return
