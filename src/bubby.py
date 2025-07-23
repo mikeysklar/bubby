@@ -198,7 +198,7 @@ CHORD_TABLE = {
     (True, False, True, True, True, False, False): Keycode.F3,
     (True, True, False, True, False, True, False): Keycode.F4,
     (True, False, True, True, False, False, False): Keycode.BACKSPACE,
-    (True, True, False, True, False, False, False): Keycode.F6,
+    (True, True, False, True, False, False, False): Keycode.SPACE,
 }
 
 
