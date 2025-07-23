@@ -51,7 +51,6 @@ time_label.anchored_position = (0, display.height)
 
 # Add labels to display
 main_group.append(word_label)
-main_group.append(mcode_label)
 main_group.append(time_label)
 
 DEBOUNCE_DURATION = 30_000_000
@@ -106,7 +105,7 @@ def update_display_scroll():
 
     word_buf = "\n".join(wrapped_lines[:3])
 
-    word_label.scale = 3
+    word_label.scale = 4
     word_label.text = word_buf
 
 hid_keycode_to_char = {
@@ -291,7 +290,6 @@ def send_chord():
 
     word_label.scale = 4
     word_label.text = str(word_buf)
-    mcode_label.text = str(key_buf)
     time_label.text = str(time_buf)
 
 class Key:
