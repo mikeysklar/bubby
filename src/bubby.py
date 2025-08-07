@@ -31,21 +31,21 @@ display.root_group = main_group
 # String label
 word_label = label.Label(font=terminalio.FONT)
 word_label.text = word_buf
-word_label.scale = 4
+word_label.scale = 3
 word_label.anchor_point = (1, 0)
 word_label.anchored_position = (display.width, 0)
 
 # Last key label
 mcode_label = label.Label(font=terminalio.FONT)
 mcode_label.text = key_buf
-mcode_label.scale = 6
+mcode_label.scale = 3
 mcode_label.anchor_point = (1, 1)
 mcode_label.anchored_position = (display.width, display.height)
 
 # Timer label
 time_label = label.Label(font=terminalio.FONT)
 time_label.text = time_buf
-time_label.scale = 6
+time_label.scale = 3
 time_label.anchor_point = (0, 1)
 time_label.anchored_position = (0, display.height)
 
@@ -92,7 +92,7 @@ def update_display_scroll():
     global line_index
     global word_label
 
-    max_chars_per_line = 10  # Adjust if needed
+    max_chars_per_line = 13  # Adjust if needed
 
     if line_index >= len(notes):
         line_index = 0
@@ -105,7 +105,7 @@ def update_display_scroll():
 
     word_buf = "\n".join(wrapped_lines[:3])
 
-    word_label.scale = 4
+    word_label.scale = 3
     word_label.text = word_buf
 
 hid_keycode_to_char = {
@@ -288,7 +288,7 @@ def send_chord():
         time_buf = f"{elapsed_time}"
         time_label.text = time_buf
 
-    word_label.scale = 4
+    word_label.scale = 3
     word_label.text = str(word_buf)
     time_label.text = str(time_buf)
 
